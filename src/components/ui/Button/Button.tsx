@@ -44,13 +44,9 @@ export function Button({
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary: "bg-black text-white hover:bg-neutral-800",
-
   secondary: "bg-neutral-100 text-neutral-900 hover:bg-neutral-200",
-
   outline: "border border-neutral-300 bg-transparent hover:bg-neutral-100",
-
   ghost: "bg-transparent hover:bg-neutral-100",
-
   destructive: "bg-red-600 text-white hover:bg-red-700",
 };
 

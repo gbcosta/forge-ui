@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/Button";
+import { Header } from "@/playground/Header";
 
 function App() {
   return (
-    <main className="min-h-screen p-10">
+    <main className="min-h-screen">
+      <Header />
       <h1 className="mb-8 text-3xl font-bold">Forge UI</h1>
-
       <div className="flex gap-4">
         <Button>Primary</Button>
 
