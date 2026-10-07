@@ -2,7 +2,10 @@ import { Boxes, SlidersHorizontal, Search } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 export const Header = () => {
   return (
-    <header className="flex w-full bg-background text-white px-4 py-2 justify-between">
+    <header
+      className="flex w-full bg-background text-white px-4 py-2 justify-between
+            border-b border-neutral-200/60 dark:border-neutral-800/80"
+    >
       <div className="flex items-center gap-2">
         <div className="p-2 bg-white text-black rounded-md">
           <Boxes className=" w-4 h-4" />
